@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <MultiRoot/>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import MultiRoot from './components/MultiRoot.vue';
 
 export default Vue.extend({
   name: 'app',
   components: {
-    HelloWorld
+    MultiRoot
   }
 });
 </script>
